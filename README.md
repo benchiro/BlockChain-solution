@@ -15,7 +15,7 @@ ochestration management and then we start to role out all the scripts that l sha
 
 ### Execute our deployment using YAML
 
-To create these, we can run the command `kubectl create -f substrate-master.yml` to create our deployment 
+To create these, we can run the command `kubectl create -f substrate-master.yml` ' kubectl create -f  substrate-telemetry-exporter-master' to create our deployment 
 and it will run service as well
 ```
 kubectl create -f helloworld-deployment.yml
