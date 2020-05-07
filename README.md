@@ -13,6 +13,10 @@ Starting  Node
 So we should make sure that docker engine is now running for containerisation and then we install kubernetes as well for our containerisation
 ochestration management and then we start to role out all the scripts that l shared for creating pods.
 
+as well commands to build the image in the directory where will be having our source code
+docker build -t substrate-master .
+docker build -t substrate-telemetry-exporter-master .
+
 ### Execute our deployment using YAML
 
 To create these, we can run the command `kubectl create -f substrate-master.yml` and "kubectl create -f  substrate-telemetry-exporter-master.yml" to create our deployment 
