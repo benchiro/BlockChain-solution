@@ -1,4 +1,4 @@
-# ParityTechnologiesDevOpsTask
+# ParityTechnologies
 automation of the provisioning and deployment process of the substate blockchain
 
 Starting  Node
